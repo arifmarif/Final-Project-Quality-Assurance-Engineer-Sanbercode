@@ -1,0 +1,23 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Tugas Akhir Bootcamp Sanbercode",
+  "homepage": "https://github.com/arifmarif/Final-Project-Quality-Assurance-Engineer-Sanbercode#readme",
+  "bugs": {
+    "url": "https://github.com/arifmarif/Final-Project-Quality-Assurance-Engineer-Sanbercode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifmarif/Final-Project-Quality-Assurance-Engineer-Sanbercode.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Arif Rizki",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  }
+}
