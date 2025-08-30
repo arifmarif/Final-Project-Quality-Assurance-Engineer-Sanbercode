@@ -1,6 +1,10 @@
-class ForgotPasswordPage {
+class forgotPasswordPage {
   visit() {
     cy.visit("https://opensource-demo.orangehrmlive.com/");
+  }
+
+  forgetPS() {
+    cy.get(".orangehrm-login-forgot > .oxd-text").click();
   }
 
   fillUsername(username) {
@@ -12,4 +16,4 @@ class ForgotPasswordPage {
   }
 }
 
-export default new ForgotPasswordPage();
+export default new forgotPasswordPage();
