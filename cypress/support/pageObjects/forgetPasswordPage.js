@@ -1,14 +1,10 @@
-class LoginPage {
+class ForgotPasswordPage {
   visit() {
     cy.visit("https://opensource-demo.orangehrmlive.com/");
   }
 
-  fillUsername(validUsername) {
+  fillUsername(username) {
     cy.get('input[name="username"]').type(username);
-  }
-
-  fillPassword(validPassword) {
-    cy.get('input[name="password"]').type(password);
   }
 
   submit() {
@@ -16,4 +12,4 @@ class LoginPage {
   }
 }
 
-export default new LoginPage();
+export default new ForgotPasswordPage();
